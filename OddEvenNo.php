@@ -1,5 +1,5 @@
 <?php
-echo "Enter a number :";
+echo "Given number :";
 $num = 5;
 echo " $num";
 echo "<br>";
