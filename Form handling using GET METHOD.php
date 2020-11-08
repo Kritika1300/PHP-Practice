@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>POST METHOD</title>
+<title>GET METHOD</title>
 </head>
 <body>
-<form action = "phpfile.php" method = "post">
+<form action = "phpfile1.php" method = "get">
 Name :<input type = "text" placeholder = "Enter your name" name="fname"/><br><br>
 E-mail Id :<input type = "text" placeholder = "Enter your email" name="email"/>
 <input type = "submit" name="submit1"/>
 </form>   
 </body>
 </html>
-<!--phpfile.php
+<!--phpfile1.php
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,7 +19,7 @@ E-mail Id :<input type = "text" placeholder = "Enter your email" name="email"/>
 </head>
 <body>
 <?php
-//echo "Welcome ".$_POST['fname']."<br>"."Your Email-address is: ".$_POST['email'];
+//echo "Welcome ".$_GET['fname']."<br>"."Your Email-address is: ".$_GET['email'];
 ?>
 </body>
-</html> -->
+</html>-->
